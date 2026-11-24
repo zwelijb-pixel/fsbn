@@ -2,3 +2,5 @@
 .env.*
 !.env.example
 staff/config.js
+public-config.js
+dist/

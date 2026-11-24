@@ -5,7 +5,7 @@
   <meta name="description" content="The people, companies and ideas shaping business across the Free State and South Africa."><title>Business News | FSBN</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="business-news.css"><script defer src="category-stories.js"></script><script defer src="business-news.js"></script><script defer src="category-engine.js"></script>
+  <link rel="stylesheet" href="business-news.css"><script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.49.8/dist/umd/supabase.min.js"></script><script defer src="public-config.js"></script><script defer src="public-content.js"></script><script defer src="public-views.js"></script><script defer src="category-engine.js"></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>
@@ -15,7 +15,7 @@
   </header>
   <main id="main" class="wrap">
     <div class="crumb"><a href="index.html">Home</a> / <span id="category-crumb">Business News</span></div>
-    <section class="category-head"><span class="eyebrow">FSBN NEWS &amp; ANALYSIS</span><h1 id="category-title">Business News</h1><p id="category-description">The people, companies and ideas shaping business across the Free State and South Africa.</p><span class="demo-note">Editorial preview · Sample stories for layout demonstration</span></section>
+    <section class="category-head"><span class="eyebrow">FSBN NEWS &amp; ANALYSIS</span><h1 id="category-title">Business News</h1><p id="category-description">The people, companies and ideas shaping business across the Free State and South Africa.</p></section>
     <section aria-label="Filter and sort stories"><div class="tools"><span class="results-count" id="results-count" aria-live="polite"></span><div class="filters"><div class="field"><label for="topic-filter">Filter by topic</label><select id="topic-filter"><option value="all">All topics</option></select></div><div class="field"><label for="sort-order">Sort stories</label><select id="sort-order"><option value="newest">Newest first</option><option value="oldest">Oldest first</option><option value="title">Headline A–Z</option></select></div><button class="clear-btn" id="clear-filters" type="button">Reset</button></div></div></section>
     <section id="article-grid" class="grid" aria-label="Category articles"></section><div class="empty" id="empty-state" role="status">No stories match this topic yet. Choose another topic to see more.</div>
     <div class="load-wrap"><button class="load" id="load-more" type="button">Load more stories</button></div>

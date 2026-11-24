@@ -3,3 +3,6 @@
 
 /* Give the image link a real box so article height includes the thumbnail. */
 .thumb{display:block}
+[hidden]{display:none!important}
+.image-fallback{display:grid!important;place-items:center;position:static!important;min-height:140px;padding:20px!important;background:#eef2f5!important;color:#68778a!important;font-size:12px!important;letter-spacing:normal!important;font-weight:400!important;text-align:center}
+.image-fallback[hidden]{display:none!important}
